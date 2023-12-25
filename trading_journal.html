@@ -13,7 +13,10 @@
     <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
-
+    
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    
     <script src="https://kit.fontawesome.com/a59b9b09ab.js" crossorigin="anonymous"></script>
 </head>
 <style>
@@ -44,6 +47,37 @@
     background-color:rgb(25, 25, 25) ;
    }
 
+   .swiper-container {
+        width: 100%;
+        height: 100%;
+      }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
 
 
 </style>
@@ -201,8 +235,188 @@
       
         </div>
         
+
+        <!-- Client Testimonial-->
+        <div class="testimonials relative flex flex-col gap-6 py-20 items-center border-t-4 border-b-4 py-32 border-black">
+
+            <!-- heading -->
+            <div class="heading relative">
+                <h2 class="text-4xl font-sans font-bold">Client Testimonials</h2>
+                <div class="slit flex flex-row gap-2 top-0">
+                    <div class="w-80 h-2 bg-gradient-to-r from-red-600 via-black to-green-600 "></div>
+                </div>
+            </div>
+            <!--slider-->
+
+            <div class="swiper-container mySwiper relative flex flex-row gap-3 ">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                   
+                   
+                    <!--first-->
+                    <div class="swiper-slide flex flex-col gap-2     p-9 py-20 w-[36rem] mx-24 ml-10">
+                        <div class="rating flex flex-row">
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                          </div>
+                          <p class=" font-sans text-xl left-64 ml-6  ">I was skeptical of AI-powered stock trading platforms but,     Trading Ledger has exceeded my expectations. Their Trading Ledger and AI Insights have helped me make    profitable trades that I wouldn't have made without their platform.</p>    
+                          <div class="name flex flex-row gap-4">
+                              
+                              <h2 class="font-bold text-xl font-serif">SARAH THOMPSON</h2>
+                          </div>
+                      </div>
+                  </div>
+
+                  <!--second-->
+                    <div class="swiper-slide">
+                        <div class="swiper-slide flex flex-col gap-2  p-9 py-20 w-[36rem] mx-24">
+                            <div class="rating flex flex-row">
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                            </div>
+                            <p class=" font-sans text-xl left-0 ">Trading Ledger has helped me grow my trading portfolio and make better decisions. Their platform is user-friendly and their AI Insights provide me with the most accurate data in real-time. Their customer support team is also top-notch.</p>    
+                            <div class="name flex flex-row gap-4">
+                              
+                              <h2 class="font-bold text-xl font-serif">JOHN CARTER</h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--third-->
+                    <div class="swiper-slide">
+                        <div class="swiper-slide flex flex-col gap-2  p-9 py-20 w-[36rem] mx-24">
+                            <div class="rating flex flex-row">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <p class=" font-sans text-xl left-0 ">Trading Ledger has made trading stocks a breeze. Their Trading Ledger and AI Insights provide me with all the information I need to make informed decisions. I highly recommend Trading Ledger to any serious trader.</p>    
+                            <div class="name flex flex-row gap-4">
+                              
+                              <h2 class="font-bold text-xl font-serif">EMMA RODGRIGUEZ</h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--fourth-->
+                    <div class="swiper-slide">
+
+                        <div class="swiper-slide flex flex-col gap-2  p-9 py-20 w-[36rem] mx-24">
+                            <div class="rating flex flex-row">
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                            </div>
+                          <p class=" font-sans text-xl left-0 ">I've been using Trading Ledger for a while now and it has helped me stay ahead of the competition. Their Trading Ledger and AI Insights have been invaluable to my trading success.</p>    
+                            <div class="name flex flex-row gap-4">
+                              
+                              <h2 class="font-bold text-xl font-serif">DAVID WILSON</h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--fifth-->
+                    <div class="swiper-slide">
+                        <div class="swiper-slide flex flex-col gap-2  p-9 py-20 w-[36rem] mx-24">
+                            <div class="rating flex flex-row">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <p class=" font-sans text-xl left-0 ">Trading Ledger's user-friendly platform and real-time AI Insights have propelled my trading portfolio to new heights. The accuracy of their data is unmatched, empowering me to make informed decisions. The top-notch customer support adds the perfect touch to an already exceptional trading experience.</p>    
+                            <div class="name flex flex-row gap-4">
+                              
+                              <h2 class="font-bold text-xl font-serif">LIAM ANDERSON</h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--sixth-->
+                  <div class="swiper-slide">
+                    <div class="swiper-slide flex flex-col gap-2  p-9 py-20 w-[36rem] mx-24">
+                        <div class="rating flex flex-row">
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                          </div>
+                          <p class=" font-sans text-xl left-0 ">Thanks to Trading Ledger, growing my trading portfolio has never been easier. The platform's simplicity and AI Insights provide real-time accuracy that is second to none. Coupled with a top-notch customer support team, this is a must-have for anyone looking to make smarter trading decisions.</p>    
+                          <div class="name flex flex-row gap-4">
+                              
+                              <h2 class="font-bold text-xl font-serif">OLIVIA MITCHELL</h2>
+                          </div>
+                      </div>
+                  </div>
+
+                  <!--seventh-->
+                  <div class="swiper-slide">
+                    <div class="swiper-slide flex flex-col gap-2  p-9 py-20 w-[36rem] mx-24">
+                        <div class="rating flex flex-row">
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                          </div>
+                          <p class=" font-sans text-xl left-0 ">Trading Ledger is a game-changer. The user-friendly interface and AI Insights deliver accurate real-time data, leading to better decisions and portfolio growth. The icing on the cake is their exceptional customer support  prompt, knowledgeable, and always ready to assist. Highly recommended.</p>    
+                          <div class="name flex flex-row gap-4">
+                              
+                              <h2 class="font-bold text-xl font-serif">ETHAN THOMPSON</h2>
+                          </div>
+                      </div>
+                  </div>
+
+                  <!--eighth-->
+                  <div class="swiper-slide">
+
+                    <div class="swiper-slide flex flex-col gap-2  p-9 py-20 w-[36rem] mx-24">
+                        <div class="rating flex flex-row">
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                          </div>
+                          <p class=" font-sans text-xl left-0 ">Trading Ledger has been my secret weapon for portfolio growth. The user-friendly platform and AI Insights instill confidence in every trade. Real-time accuracy is a game-changer, and their top-notch customer support ensures a smooth journey. A must-have for any serious trader.</p>    
+                          <div class="name flex flex-row gap-4">
+                              
+                              <h2 class="font-bold text-xl font-serif">SOPHIA BROWN</h2>
+                          </div>
+                      </div>
+                  </div>
+
+                  <!--ninth-->
+                    <div class="swiper-slide">
+
+                        <div class="swiper-slide flex flex-col gap-2  p-9 py-20 w-[36rem] mx-24">
+                            <div class="rating flex flex-row">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <p class=" font-sans text-xl left-0 ">Trading Ledger simplifies the path to success. The intuitive platform, coupled with AI Insights, has significantly improved my decision-making. Real-time accuracy has been a game-changer for my trading portfolio. Kudos to the stellar customer support team for their unwavering assistance.</p>    
+                            <div class="name flex flex-row gap-4">
+                                
+                                <h2 class="font-bold text-xl font-serif">LUCAS MILLER</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div> -->
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </div>
         <!-- FOOTER -->
-        <footer class=" foot flex flex-row justify-around border-t-4 border-b-4 border-black bg-black ">
+        <footer class=" foot relative flex flex-row justify-around border-t-4 border-b-4 border-black bg-black ">
 
             <div class="info flex flex-col gap-5 py-8 ">
                 <h3 class="font-serif font-bold  text-2xl text-white">Trading Journal</h3>
@@ -233,6 +447,11 @@
 
         </footer>
     </div>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script src="trading_journal.js"></script>
 
 </body>
 </html>
